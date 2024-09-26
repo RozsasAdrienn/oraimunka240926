@@ -1,6 +1,7 @@
 /* Táblázat beállításai */
 table {
         border-collapse:collapse;  /* szegély összevonása*/
+        background-color: lightblue;
       }
 td,th { 
         border:1px solid black;   /* szegély beállítása */
@@ -9,3 +10,29 @@ td,th {
 
 
 /* További beállítások a feladat szerint */
+
+h1{
+        /*betűszín állítás 3 módszere*/
+        color: blue;
+        color: #0000ff;
+        color: rgb(0, 0, 255);
+        /*color: red;*/
+}
+
+#vastag{
+        /*vastagon szedett*/
+        font-weight: bold;
+}
+caption{
+        /*dőlt betűs*/
+        font-style: italic;
+}
+
+h1, h2{
+        /*betűtípus állítása*/
+        font-family: Arial, Helvetica, sans-serif;
+        /*betűméret*/
+        /*font-size: 20px;*/
+        /*sor magasság*/
+        /*line-height: 25px;*/
+}
